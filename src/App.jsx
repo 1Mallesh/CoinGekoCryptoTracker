@@ -1,11 +1,19 @@
 
 import './App.css'
+import Banner from './componets/Banner/Banner'
+import CoinTable from './componets/CoinTable/CoinTable'
+import Navbar from './Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-     <h1>hello</h1>
+
+      <Navbar />
+      <Banner />
+      <CoinTable />
+
+
     </>
   )
 }
